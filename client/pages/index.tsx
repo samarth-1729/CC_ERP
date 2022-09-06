@@ -1,9 +1,10 @@
 import type { NextPage } from 'next'
+import Navbar from '../components/Navbar'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex justify-center items-center h-screen font-bold text-4xl italic underline ">
-      Hello cc erp
+    <div className=" ">
+      <Navbar />
     </div>
   )
 }
