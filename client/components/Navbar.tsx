@@ -5,14 +5,14 @@ import avatar from '../public/favicon.ico'
 
 const Navbar = () => {
   return (
-    <div className="flex items-center h-[80px] p-4 px-6 bg-offwhite shadow ">
+    <div className="flex items-center h-[65px] p-4 px-5 bg-offwhite shadow ">
       <div className="flex items-center mr-auto ">
         {/* logo */}
         <Image
           src={Logo}
           alt="IITJ-logo"
-          width={60}
-          height={60}
+          width={45}
+          height={45}
           objectFit="cover"
           className="rounded-full "
         />
@@ -28,11 +28,11 @@ const Navbar = () => {
           <Image
             src={avatar}
             alt="avatar"
-            width={40}
-            height={40}
+            width={35}
+            height={35}
             className="rounded-full "
           />
-          <h1 className="text-gray-500 text-xl font-medium ">Samarth</h1>
+          <h1 className="text-gray-500 text-large font-medium ">Samarth</h1>
           <BiChevronDown className="text-xl text-gray-500 " />
         </div>
       </div>
