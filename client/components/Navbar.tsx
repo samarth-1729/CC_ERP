@@ -5,7 +5,7 @@ import avatar from '../public/favicon.ico'
 
 const Navbar = () => {
   return (
-    <div className="flex items-center h-[65px] p-4 px-5 bg-offwhite shadow ">
+    <div className="flex items-center h-[65px] p-4 px-5 bg-offwhite shadow shadow-primary4 z-1 relative">
       <div className="flex items-center mr-auto ">
         {/* logo */}
         <Image
